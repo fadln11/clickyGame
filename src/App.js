@@ -40,7 +40,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <Navbar score={this.state.score} topScore={this.state.topScore}/> */}
         <Navbar message={this.state.message} score={this.state.score} topScore={this.state.topScore}/>
         <Header/>
         <CardContainer updateMessage={this.updateMessage} updateCurrentScore={this.updateCurrentScore}

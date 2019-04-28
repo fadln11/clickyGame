@@ -53,7 +53,7 @@ class CardContainer extends Component {
 
   render() {
     return (
-      <div className="container" id="card-container">
+      <div className="container">
         <div className="row mb-5">
           {friends.map(friend =>
           <ImgCard src={friend.image} key={friend.id} id={friend.id} alt={friend.name}
