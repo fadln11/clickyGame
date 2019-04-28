@@ -1,0 +1,49 @@
+/*----------------------------------------*/
+/* Custom CSS
+/*----------------------------------------*/
+
+/* Navbar */
+
+#counters {
+  color: white;
+}
+
+
+/* Header */
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("./images/bg-header-friends.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+  padding-bottom: 120px;
+  margin-bottom: 70px;
+  color: white;
+  overflow: auto;
+
+}
+.header > h1 {
+  font-size: 3.5rem;
+  padding-top: 120px;
+}
+
+/* Footer */
+.footer {
+  /* background: #6956af; */
+  background: rgba(5, 71, 110, 0.9);
+  height: 100px;
+  position: relative;
+  color: #fff;
+  overflow: auto;
+}
+.footer > .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background: #5138a1; */
+  background: rgb(10, 34, 56);
+  padding: 8px;
+  font-weight: 600;
+}
